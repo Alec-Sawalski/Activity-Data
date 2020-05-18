@@ -28,6 +28,7 @@
 
     Number of Fisher Scoring iterations: 2
 
+<img src=http://127.0.0.1:35012/graphics/plot_zoom_png?width=965&height=900>
 
 #### Daily_Activity ~ Milk.Yield
 
