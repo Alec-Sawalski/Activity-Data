@@ -134,6 +134,8 @@
         AIC: 1045.5
 
         Number of Fisher Scoring iterations: 2
+        
+<img src=https://user-images.githubusercontent.com/61294969/82225657-18db8e80-98eb-11ea-87a6-f7b121198f7f.png>
 
 #### LELY Daily Rumination ~ CE.Waste.Consistency (Thick)
 
