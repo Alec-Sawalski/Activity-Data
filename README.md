@@ -32,6 +32,29 @@
 
 #### Daily_Activity ~ Milk.Yield
 
+        Call:
+        glm(formula = log_daily_activity ~ Milk.Yield, data = Merged_new_dt_final2)
+
+        Deviance Residuals: 
+            Min        1Q    Median        3Q       Max  
+        -0.52136  -0.19065  -0.05304   0.15209   1.10686  
+
+        Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+        (Intercept) 3.495616   0.125761  27.796   <2e-16 ***
+        Milk.Yield  0.008181   0.003690   2.217   0.0294 *  
+        ---
+        Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+        (Dispersion parameter for gaussian family taken to be 0.08523838)
+
+            Null deviance: 7.4086  on 83  degrees of freedom
+        Residual deviance: 6.9895  on 82  degrees of freedom
+        (11 observations deleted due to missingness)
+        AIC: 35.524
+
+        Number of Fisher Scoring iterations: 2
+        
 #### Daily_Activity ~ MS.Milk.Yield
 
 #### Daily_Activity ~ MS.Lactose
