@@ -162,6 +162,8 @@
 
         Number of Fisher Scoring iterations: 2
 
+<img src=https://user-images.githubusercontent.com/61294969/82225832-50e2d180-98eb-11ea-8c78-29e3410be2e0.png>
+
 #### LELY Daily Rumination ~ CE.Stom.Layering
 
         Call:
