@@ -54,7 +54,9 @@
         AIC: 35.524
 
         Number of Fisher Scoring iterations: 2
-        
+ 
+ <img src=https://user-images.githubusercontent.com/61294969/82222466-f182c280-98e6-11ea-9186-8d0b605173a1.png>
+ 
 #### Daily_Activity ~ MS.Milk.Yield
 
 #### Daily_Activity ~ MS.Lactose
