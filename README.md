@@ -205,3 +205,4 @@
 
         Number of Fisher Scoring iterations: 2
 
+<img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
