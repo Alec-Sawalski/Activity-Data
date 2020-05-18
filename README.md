@@ -189,6 +189,8 @@
 
         Number of Fisher Scoring iterations: 2
 
+<img src=https://user-images.githubusercontent.com/61294969/82226285-ef6f3280-98eb-11ea-887b-559d119a2bd8.png>
+
 #### LELY Daily Rumination ~ MS.Urea
 
         Call:
