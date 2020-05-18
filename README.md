@@ -81,6 +81,8 @@
 
         Number of Fisher Scoring iterations: 2
 
+<img src=https://user-images.githubusercontent.com/61294969/82225341-b2567080-98ea-11ea-9b63-06c7104e9d57.png>
+
 #### Daily_Activity ~ MS.Lactose
 
         Call:
