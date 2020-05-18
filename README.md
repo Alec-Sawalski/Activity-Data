@@ -107,6 +107,8 @@
 
         Number of Fisher Scoring iterations: 2
 
+<img src=https://user-images.githubusercontent.com/61294969/82225471-ddd95b00-98ea-11ea-8aec-799be9337fd0.png>
+
 ## LELY Daily Rumination Significant Predictors
 
 #### LELY Daily Rumination ~ Hapto.0.35
