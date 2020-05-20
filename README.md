@@ -1,6 +1,6 @@
 # Activity-Data
 
-#### We used activity data variables "daily_activity" and "LELY_daily_rumination" as our outcome variables. We used different predictor variables from our hp9 dataset. Linear regression was used to determine significant vs. non-significant predictors of both. In addition, boxplots were used to visualize our factor variables and scatterplots were used to visualize our numeric variables. In total, we found four significantly associated predictors with Daily_Activity and four significantly associated predictors with LELY_daily_rumination.
+We used activity data variables "daily_activity" and "LELY_daily_rumination" as our outcome variables. We used different predictor variables from our hp9 dataset. Linear regression was used to determine significant vs. non-significant predictors of both. In addition, boxplots were used to visualize our factor variables and scatterplots were used to visualize our numeric variables. In total, we found four significantly associated predictors with Daily_Activity and four significantly associated predictors with LELY_daily_rumination.
 
 ## Defining Non-Significant Factor Predictors
 
