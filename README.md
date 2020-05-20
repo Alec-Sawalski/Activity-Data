@@ -275,6 +275,35 @@
 
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
 
+#### LELY Daily Rumination ~ BS.Month
+
+       Call:
+       glm(formula = LELY_DAILY_RUMINATION ~ BS.Month, data = Merged_new_dt_final2)
+
+    Deviance Residuals: 
+        Min       1Q   Median       3Q      Max  
+    -163.67   -32.30     3.00    39.67   103.92  
+
+    Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)      462.769     16.264  28.453   <2e-16 ***
+    BS.Month07-2018  -14.603     21.344  -0.684   0.4957    
+    BS.Month08-2018  -44.103     23.475  -1.879   0.0636 .  
+    BS.Month09-2018  -62.325     25.429  -2.451   0.0162 *  
+    BS.Month10-2018  -29.769     24.024  -1.239   0.2186    
+    BS.Month11-2018  -22.619     20.892  -1.083   0.2819    
+    BS.Month12-2018   -9.686     23.475  -0.413   0.6809    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for gaussian family taken to be 3438.854)
+
+     Null deviance: 332618  on 94  degrees of freedom
+    Residual deviance: 302619  on 88  degrees of freedom
+    AIC: 1051.9
+
+    Number of Fisher Scoring iterations: 2
+
 ## Multiple Regression final output - Daily Activity
 
     Call:
