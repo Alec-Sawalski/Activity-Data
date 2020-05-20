@@ -4,65 +4,63 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 ## Defining Non-Significant Factor Predictors
 
-#### BS.BHBA.1.2 - States whether the cow had a high or low blood BHBA level
+BS.BHBA.1.2 - States whether the cow had a high or low blood BHBA level
 
-#### CE.Lame - is the cow lame
+CE.Lame - Is the cow lame
 
-#### Hfr.or.Cow - Type of cow, is it a heifer or a cow
+Hfr.or.Cow - Type of cow, is it a heifer or a cow
 
-#### CE.Locomotion Score - Locomotion Score, 1 & 2 = okay, 3, 4, & 5 = lame
+CE.Locomotion Score - Locomotion Score, 1 & 2 = okay, 3, 4, & 5 = lame
 
-#### FPR.1.4 - States wheter the cow had high or low Fat/Protein ratio
+FPR.1.4 - States wheter the cow had high or low Fat/Protein ratio
 
-#### CE.Stom.Tension - Measurement of abdominal tension aka stomach aches
+CE.Stom.Tension - Measurement of abdominal tension aka stomach aches
 
-#### CE.Stom.Fluid.Movement - Movement of fluids in the stomach
+CE.Stom.Fluid.Movement - Movement of fluids in the stomach
 
-#### CE.Stom.Ping - Ping of the stomach
+CE.Stom.Ping - Ping of the stomach
 
-#### CE.Waste.Digestion - How well food has been digested by the cow
+CE.Waste.Digestion - How well food has been digested by the cow
 
-#### CE.Stom.Noise.Frequency - Frequency of Rumen Rumbles
+CE.Stom.Noise.Frequency - Frequency of Rumen Rumbles
 
-#### CE.Stom.Fullness - Measure of how full the stomach is
+CE.Stom.Fullness - Measure of how full the stomach is
 
-#### BS.Month - Month blood sample was taken
-
-#### Cow.Breed - Breed of the cow; CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
+Cow.Breed - Breed of the cow; CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
 
 ## Defining Non-Significant Numeric Predictors
 
-#### BS.DIM - number of days after calving that the blood sample took place
+BS.DIM - number of days after calving that the blood sample took place
 
-#### MS.DIM - How many days after calving was the milk sampled
+MS.DIM - How many days after calving was the milk sampled
 
-#### MS.Acetone.Log - Acetone in milk
+MS.Acetone.Log - Acetone in milk
 
-#### MS.S.Cell.Count.Log - amount of somatic cells in the milk (1000 cells/mL)
+MS.S.Cell.Count.Log - amount of somatic cells in the milk (1000 cells/mL)
 
-#### MS.pH - pH measurement of the milk
+MS.pH - pH measurement of the milk
 
-#### MS.SFA - Amount of short fatty acids in the milk (Micro mole/L)
+MS.SFA - Amount of short fatty acids in the milk (Micro mole/L)
 
-#### MS.PFA - Amount of polyunsaturated fatty acids in the milk (Micro Mole/L)
+MS.PFA - Amount of polyunsaturated fatty acids in the milk (Micro Mole/L)
 
-#### MS.MFA - Amount of monounsaturated fatty acids in the milk (Micro mole/L)
+MS.MFA - Amount of monounsaturated fatty acids in the milk (Micro mole/L)
 
-#### MS.NSFA - Amount of non-saturated fatty acids in the milk (Micro mole/L)
+MS.NSFA - Amount of non-saturated fatty acids in the milk (Micro mole/L)
 
-#### MS.Palmeic - Amount of palmeic fatty acid in the milk (Micro mole/L)
+MS.Palmeic - Amount of palmeic fatty acid in the milk (Micro mole/L)
 
-#### MS.Stearine - Amount of stearine fatty acid in the milk (Micro mole/L)
+MS.Stearine - Amount of stearine fatty acid in the milk (Micro mole/L)
 
-#### MS.Oleic - Amount of oleic acid in the milk (Micro mole/L)
+MS.Oleic - Amount of oleic acid in the milk (Micro mole/L)
 
-#### CE.Fat.Level - Fat level on the back of the cow (mm)
+CE.Fat.Level - Fat level on the back of the cow (mm)
 
-#### CE.Temp - Inner body temperature of the cow (celsius)
+CE.Temp - Inner body temperature of the cow (celsius)
 
 ## Daily Activity Significant Predictors
 
-#### Daily_Activity ~ BS.NEFA.0.7
+#### Daily_Activity ~ BS.NEFA.0.7 - NEFA levels above or below 0.7 (above 0.7=high)
 
     Call:
     glm(formula = log_daily_activity ~ BS.NEFA.0.7, data = Merged_new_dt_final2)
@@ -88,7 +86,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 <img src=https://user-images.githubusercontent.com/61294969/82221643-e2e7db80-98e5-11ea-99b0-ff532759d117.png>
 
-#### Daily_Activity ~ Milk.Yield
+#### Daily_Activity ~ Milk.Yield - Milk Yield each day (kg)
 
         Call:
         glm(formula = log_daily_activity ~ Milk.Yield, data = Merged_new_dt_final2)
@@ -115,7 +113,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
  
  <img src=https://user-images.githubusercontent.com/61294969/82222466-f182c280-98e6-11ea-9186-8d0b605173a1.png>
  
-#### Daily_Activity ~ MS.Milk.Yield
+#### Daily_Activity ~ MS.Milk.Yield - Amount of milk from a certain milk sample (kg)
 
         Call:
         glm(formula = log_daily_activity ~ MS.Milk.Yield, data = Merged_new_dt_final2)
@@ -141,7 +139,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 <img src=https://user-images.githubusercontent.com/61294969/82225341-b2567080-98ea-11ea-9b63-06c7104e9d57.png>
 
-#### Daily_Activity ~ MS.Lactose
+#### Daily_Activity ~ MS.Lactose - % lactose in the milk (%)
 
         Call:
         glm(formula = log_daily_activity ~ MS.Lactose, data = Merged_new_dt_final2)
@@ -169,7 +167,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 ## LELY Daily Rumination Significant Predictors
 
-#### LELY Daily Rumination ~ Hapto.0.35
+#### LELY Daily Rumination ~ Hapto.0.35 - Hapto levels above or below 0.35
 
         Call:
         glm(formula = LELY_DAILY_RUMINATION ~ Hapto0.35, data = Merged_new_dt_final2)
@@ -195,7 +193,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
         
 <img src=https://user-images.githubusercontent.com/61294969/82225657-18db8e80-98eb-11ea-87a6-f7b121198f7f.png>
 
-#### LELY Daily Rumination ~ CE.Waste.Consistency (Thick)
+#### LELY Daily Rumination ~ CE.Waste.Consistency - Consistency of Waste (Thick, Normal, Thin)
 
         Call:
         glm(formula = LELY_DAILY_RUMINATION ~ CE.Waste.Consistency, data = Merged_new_dt_final2)
@@ -222,7 +220,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 <img src=https://user-images.githubusercontent.com/61294969/82225832-50e2d180-98eb-11ea-8c78-29e3410be2e0.png>
 
-#### LELY Daily Rumination ~ CE.Stom.Layering
+#### LELY Daily Rumination ~ CE.Stom.Layering - Layering of the Rumen (1=Normal layering)
 
         Call:
         glm(formula = LELY_DAILY_RUMINATION ~ CE.Stom.Layering, data = Merged_new_dt_final2)
@@ -249,7 +247,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 <img src=https://user-images.githubusercontent.com/61294969/82226285-ef6f3280-98eb-11ea-887b-559d119a2bd8.png>
 
-#### LELY Daily Rumination ~ MS.Urea
+#### LELY Daily Rumination ~ MS.Urea - % Urea Measurement
 
         Call:
         glm(formula = LELY_DAILY_RUMINATION ~ MS.Urea, data = Merged_new_dt_final2)
@@ -275,7 +273,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
 
-#### LELY Daily Rumination ~ BS.Month
+#### LELY Daily Rumination ~ BS.Month - Month Blood Sample was taken
 
        Call:
        glm(formula = LELY_DAILY_RUMINATION ~ BS.Month, data = Merged_new_dt_final2)
@@ -332,7 +330,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
     Number of Fisher Scoring iterations: 2
 
-#### After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows.
+After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows.
 
 ## Multiple Regression final output - LELY Daily Rumination
 
@@ -359,4 +357,4 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
     Number of Fisher Scoring iterations: 2
     
-#### After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows.
+After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows.
