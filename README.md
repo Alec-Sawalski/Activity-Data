@@ -167,7 +167,7 @@ CE.Temp - Inner body temperature of the cow (celsius)
 
 ## LELY Daily Rumination Significant Predictors
 
-#### LELY Daily Rumination ~ Hapto.0.35 - Hapto levels above or below 0.35
+#### LELY Daily Rumination ~ Hapto.0.35 - Hapto levels above or below 0.35 (0=Below 0.35, 1=Above 0.35)
 
         Call:
         glm(formula = LELY_DAILY_RUMINATION ~ Hapto0.35, data = Merged_new_dt_final2)
