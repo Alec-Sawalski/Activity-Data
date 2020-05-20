@@ -274,3 +274,58 @@
         Number of Fisher Scoring iterations: 2
 
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
+
+## Multiple Regression final output - Daily Activity
+
+    Call:
+    glm(formula = log_daily_activity ~ BS.NEFA.0.7 + MS.Lactose, 
+    data = Merged_new_dt_final2)
+
+    Deviance Residuals: 
+         Min        1Q    Median        3Q       Max  
+    -0.49940  -0.18103  -0.05424   0.16491   1.10325  
+
+    Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)   2.70818    0.50260   5.388 5.44e-07 ***
+    BS.NEFA.0.71 -0.17330    0.06795  -2.550   0.0124 *  
+    MS.Lactose    0.23308    0.10382   2.245   0.0272 *  
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for gaussian family taken to be 0.08505233)
+
+        Null deviance: 8.8148  on 94  degrees of freedom
+    Residual deviance: 7.8248  on 92  degrees of freedom
+    AIC: 40.424
+
+    Number of Fisher Scoring iterations: 2
+
+#### After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows.
+
+## Multiple Regression final output - LELY Daily Rumination
+
+    Call:
+    glm(formula = LELY_DAILY_RUMINATION ~ Hapto0.35 + MS.Urea, data = Merged_new_dt_final2)
+
+    Deviance Residuals: 
+         Min        1Q    Median        3Q       Max  
+    -179.338   -32.103     5.664    36.026   125.974  
+
+    Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+    (Intercept) 397.4486    17.2294  23.068  < 2e-16 ***
+    Hapto0.351  -32.9575    12.3851  -2.661  0.00919 ** 
+    MS.Urea       1.9956     0.6214   3.212  0.00182 ** 
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for gaussian family taken to be 3073.523)
+
+        Null deviance: 332618  on 94  degrees of freedom
+    Residual deviance: 282764  on 92  degrees of freedom
+    AIC: 1037.5
+
+    Number of Fisher Scoring iterations: 2
+    
+#### After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows.
