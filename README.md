@@ -330,7 +330,7 @@ CE.Temp - Inner body temperature of the cow (celsius)
 
     Number of Fisher Scoring iterations: 2
 
-After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows.
+After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significant, but relatively similar variables, on MS.Milk.Yield was used in the final model. Ater running the initial model with all significant predictors, backward step elimination was used until all predictors were significant.
 
 ## Multiple Regression final output - LELY Daily Rumination
 
