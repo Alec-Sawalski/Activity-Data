@@ -84,7 +84,7 @@ CE.Temp - Inner body temperature of the cow (celsius)
 
     Number of Fisher Scoring iterations: 2
 
-<img src=https://user-images.githubusercontent.com/61294969/82221643-e2e7db80-98e5-11ea-99b0-ff532759d117.png>
+<img src = https://user-images.githubusercontent.com/61294969/82485760-87fae380-9aa1-11ea-8e25-c654287089d8.png>
 
 #### Daily_Activity ~ Milk.Yield - Milk Yield each day (kg)
 
