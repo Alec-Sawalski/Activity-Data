@@ -26,9 +26,39 @@
 
 #### CE.Stom.Fullness - Measure of how full the stomach is
 
+#### BS.Month - Month blood sample was taken
+
 #### Cow.Breed - Breed of the cow; CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
 
 ## Defining Non-Significant Numeric Predictors
+
+#### BS.DIM - number of days after calving that the blood sample took place
+
+#### MS.DIM - How many days after calving was the milk sampled
+
+#### MS.Acetone.Log - Acetone in milk
+
+#### MS.S.Cell.Count.Log - amount of somatic cells in the milk (1000 cells/mL)
+
+#### MS.pH - pH measurement of the milk
+
+#### MS.SFA - Amount of short fatty acids in the milk (Micro mole/L)
+
+#### MS.PFA - Amount of polyunsaturated fatty acids in the milk (Micro Mole/L)
+
+#### MS.MFA - Amount of monounsaturated fatty acids in the milk (Micro mole/L)
+
+#### MS.NSFA - Amount of non-saturated fatty acids in the milk (Micro mole/L)
+
+#### MS.Palmeic - Amount of palmeic fatty acid in the milk (Micro mole/L)
+
+#### MS.Stearine - Amount of stearine fatty acid in the milk (Micro mole/L)
+
+#### MS.Oleic - Amount of oleic acid in the milk (Micro mole/L)
+
+#### CE.Fat.Level - Fat level on the back of the cow (mm)
+
+#### CE.Temp - Inner body temperature of the cow (celsius)
 
 ## Daily Activity Significant Predictors
 
