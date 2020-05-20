@@ -332,6 +332,8 @@ CE.Temp - Inner body temperature of the cow (celsius)
 
 After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significant, but relatively similar variables, on MS.Milk.Yield was used in the final model. Ater running the initial model with all significant predictors, backward step elimination was used until all predictors were significant.
 
+Looking at daily activity, we see that as NEFA levels increase, levels in daily activity decrease by 0.17330. In addition, as lactose levels incrase, levels in daily activity increase by 0.23308.
+
 ## Multiple Regression final output - LELY Daily Rumination
 
     Call:
@@ -357,4 +359,4 @@ After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 a
 
     Number of Fisher Scoring iterations: 2
     
-After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows.
+After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows. We see that for increases in Hapto levels, there is a decrease in LELY daily rumination by 32.9575. Also, when there is an incrase in MS.Urea, we see an increase in LELY daily rumination by 1.9956.
