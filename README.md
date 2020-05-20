@@ -304,6 +304,8 @@
 
     Number of Fisher Scoring iterations: 2
 
+<img src = https://user-images.githubusercontent.com/61294969/82472223-77d90900-9a8d-11ea-8da5-d43e71378acd.png>
+
 ## Multiple Regression final output - Daily Activity
 
     Call:
