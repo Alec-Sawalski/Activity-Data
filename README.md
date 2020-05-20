@@ -1,6 +1,34 @@
 # Activity-Data
 
-#### We used activity data variables "daily_activity" and "LELY_daily_rumination" as our outcome variables. We used different predictor variables from our hp9 dataset. Linear regression was used to determine significant vs. non-significant predictors of both. In addition, boxplots were used to visualize our factor variables and scatterplots were used to visualize our numeric variables. In total, we found four significantly associated predictors with Daily_Activity and four significantly associated predictors with LELY_daily_rumination.\.
+#### We used activity data variables "daily_activity" and "LELY_daily_rumination" as our outcome variables. We used different predictor variables from our hp9 dataset. Linear regression was used to determine significant vs. non-significant predictors of both. In addition, boxplots were used to visualize our factor variables and scatterplots were used to visualize our numeric variables. In total, we found four significantly associated predictors with Daily_Activity and four significantly associated predictors with LELY_daily_rumination.
+
+## Defining Non-Significant Factor Predictors
+
+#### BS.BHBA.1.2 - States whether the cow had a high or low blood BHBA level
+
+#### CE.Lame - is the cow lame
+
+#### Hfr.or.Cow - Type of cow, is it a heifer or a cow
+
+#### CE.Locomotion Score - Locomotion Score, 1 & 2 = okay, 3, 4, & 5 = lame
+
+#### FPR.1.4 - States wheter the cow had high or low Fat/Protein ratio
+
+#### CE.Stom.Tension - Measurement of abdominal tension aka stomach aches
+
+#### CE.Stom.Fluid.Movement - Movement of fluids in the stomach
+
+#### CE.Stom.Ping - Ping of the stomach
+
+#### CE.Waste.Digestion - How well food has been digested by the cow
+
+#### CE.Stom.Noise.Frequency - Frequency of Rumen Rumbles
+
+#### CE.Stom.Fullness - Measure of how full the stomach is
+
+#### Cow.Breed - Breed of the cow; CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
+
+## Defining Non-Significant Numeric Predictors
 
 ## Daily Activity Significant Predictors
 
