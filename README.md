@@ -58,6 +58,8 @@ CE.Fat.Level - Fat level on the back of the cow (mm)
 
 CE.Temp - Inner body temperature of the cow (celsius)
 
+Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LELY Daily Rumination and Daily Activity, but found this analysis was not significant.
+
 ## Daily Activity Significant Predictors
 
 #### Daily_Activity ~ BS.NEFA.0.7 - NEFA levels above or below 0.7 (above 0.7=high)
