@@ -339,30 +339,44 @@ After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 a
 Looking at daily activity, we see that as NEFA levels increase, levels in daily activity decrease by 0.17330. In addition, as lactose levels incrase, levels in daily activity increase by 0.23308.
 
 ## Multiple Regression final output - LELY Daily Rumination
+
     Call:
-    glm(formula = LELY_DAILY_RUMINATION ~ Hapto0.35 + MS.Urea, data = Merged_new_dt_final2)
+    glm(formula = LELY_DAILY_RUMINATION ~ Hapto0.35 + CE.Stom.Layering + 
+    MS.Urea + n2, data = dd1)
 
     Deviance Residuals: 
          Min        1Q    Median        3Q       Max  
-    -179.338   -32.103     5.664    36.026   125.974  
+    -173.509   -29.469     7.033    37.400   112.942  
 
     Coefficients:
-                Estimate Std. Error t value Pr(>|t|)    
-    (Intercept) 397.4486    17.2294  23.068  < 2e-16 ***
-    Hapto0.351  -32.9575    12.3851  -2.661  0.00919 ** 
-    MS.Urea       1.9956     0.6214   3.212  0.00182 ** 
+                  Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)       340.9039    35.7588   9.533 3.27e-15 ***
+    Hapto0.351        -29.3092    12.8356  -2.283  0.02481 *  
+    CE.Stom.Layering1  64.4704    33.1010   1.948  0.05464 .  
+    MS.Urea             1.7636     0.6432   2.742  0.00739 ** 
+    n22                 4.8912    14.8978   0.328  0.74345    
+    n23                -7.9567    14.6285  -0.544  0.58788    
     ---
     Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-    (Dispersion parameter for gaussian family taken to be 3073.523)
+    (Dispersion parameter for gaussian family taken to be 3065.126)
 
-        Null deviance: 332618  on 94  degrees of freedom
-    Residual deviance: 282764  on 92  degrees of freedom
-    AIC: 1037.5
+    Null deviance: 329681  on 93  degrees of freedom
+    Residual deviance: 269731  on 88  degrees of freedom
+     (1 observation deleted due to missingness)
+    AIC: 1029.2
 
     Number of Fisher Scoring iterations: 2
 
-## Effect Plots - LELY Daily Rumination
+## Odds Ratios, Confidence Intervals, Effect Plots - LELY Daily Rumination
+
+                             OR         2.5 %        97.5 %
+    (Intercept)       1.128927e+148 4.118112e+117 3.094807e+178
+    Hapto0.351         1.867188e-13  2.215648e-24  1.573530e-02
+    CE.Stom.Layering1  9.980421e+27  6.661138e-01  1.495372e+56
+    MS.Urea            5.833676e+00  1.653826e+00  2.057761e+01
+    n22                1.331099e+02  2.774249e-11  6.386680e+14
+    n23                3.503245e-04  1.237780e-16  9.915110e+08
 
 
 After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows. We see that for increases in Hapto levels, there is a decrease in LELY daily rumination by 32.9575. Also, when there is an incrase in MS.Urea, we see an increase in LELY daily rumination by 1.9956.
