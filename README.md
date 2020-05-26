@@ -309,30 +309,41 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 ## Multiple Regression final output - Daily Activity
 
     Call:
-    glm(formula = log_daily_activity ~ BS.NEFA.0.7 + MS.Lactose, 
-    data = Merged_new_dt_final2)
+    glm(formula = log_daily_activity ~ BS.NEFA.0.7 + MS.Lactose + 
+    n2, data = dd1)
 
     Deviance Residuals: 
          Min        1Q    Median        3Q       Max  
-    -0.49940  -0.18103  -0.05424   0.16491   1.10325  
+    -0.54868  -0.18921  -0.05224   0.13893   1.05719  
 
     Coefficients:
-                 Estimate Std. Error t value Pr(>|t|)    
-    (Intercept)   2.70818    0.50260   5.388 5.44e-07 ***
-    BS.NEFA.0.71 -0.17330    0.06795  -2.550   0.0124 *  
-    MS.Lactose    0.23308    0.10382   2.245   0.0272 *  
+                Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)   2.86093    0.52659   5.433 4.68e-07 ***
+    BS.NEFA.0.71 -0.16870    0.06945  -2.429   0.0171 *  
+    MS.Lactose    0.21161    0.10755   1.968   0.0522 .  
+    n22          -0.08913    0.07849  -1.136   0.2591    
+    n23          -0.04860    0.07758  -0.626   0.5326    
     ---
     Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-    (Dispersion parameter for gaussian family taken to be 0.08505233)
+    (Dispersion parameter for gaussian family taken to be 0.08571376)
 
         Null deviance: 8.8148  on 94  degrees of freedom
-    Residual deviance: 7.8248  on 92  degrees of freedom
-    AIC: 40.424
+    Residual deviance: 7.7142  on 90  degrees of freedom
+    AIC: 43.071
 
     Number of Fisher Scoring iterations: 2
 
-## Effect Plots - Daily Activity
+## Odds Ratios, Confidence Intervals, and Effect Plots - Daily Activity
+
+                         OR     2.5 %    97.5 %
+    (Intercept)  17.4778258 6.2266018 49.059568
+    BS.NEFA.0.71  0.8447630 0.7372512  0.967953
+    MS.Lactose    1.2356633 1.0008209  1.525612
+    n22           0.9147256 0.7843006  1.066840
+    n23           0.9525621 0.8182026  1.108985
+    
+  
 
 After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significant, but relatively similar variables, on MS.Milk.Yield was used in the final model. Ater running the initial model with all significant predictors, backward step elimination was used until all predictors were significant.
 
