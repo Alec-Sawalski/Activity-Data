@@ -378,5 +378,6 @@ Looking at daily activity, we see that as NEFA levels increase, levels in daily 
     n22                1.331099e+02  2.774249e-11  6.386680e+14
     n23                3.503245e-04  1.237780e-16  9.915110e+08
 
+<img src = https://user-images.githubusercontent.com/61294969/82909029-5add8380-9f2e-11ea-91fc-25d2de54155e.png>
 
 After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows. We see that for increases in Hapto levels, there is a decrease in LELY daily rumination by 32.9575. Also, when there is an incrase in MS.Urea, we see an increase in LELY daily rumination by 1.9956.
