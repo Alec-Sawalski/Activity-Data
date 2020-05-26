@@ -345,9 +345,9 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
     
 <img src = https://user-images.githubusercontent.com/61294969/82910194-f15e7480-9f2f-11ea-87ca-15543c3aceff.png>  
 
-After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significant, but relatively similar variables, on MS.Milk.Yield was used in the final model. Ater running the initial model with all significant predictors, backward step elimination was used until all predictors were significant.
+After arriving at our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significantly associated predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significantly associated with the outcome, but relatively similar variables, only MS.Milk.Yield was used in the final model. Ater running the initial model with all significantly associated predictors from the bivariate analysis, backward step elimination was used until only significantly associated predictors remained in the final model.
 
-Looking at daily activity, we see that as NEFA levels increase, levels in daily activity decrease by 0.17330. In addition, as lactose levels incrase, levels in daily activity increase by 0.23308.
+Looking at daily activity, we see that as NEFA levels increase, levels in daily activity decrease by 0.17330 units. In addition, as lactose levels increase, levels in daily activity increase by 0.23308 units.
 
 ## Multiple Regression final output - LELY Daily Rumination
 
