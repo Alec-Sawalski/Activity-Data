@@ -343,7 +343,7 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
     n22           0.9147256 0.7843006  1.066840
     n23           0.9525621 0.8182026  1.108985
     
-  
+<img src = https://user-images.githubusercontent.com/61294969/82910194-f15e7480-9f2f-11ea-87ca-15543c3aceff.png>  
 
 After arriving to our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significant predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significant, but relatively similar variables, on MS.Milk.Yield was used in the final model. Ater running the initial model with all significant predictors, backward step elimination was used until all predictors were significant.
 
