@@ -275,42 +275,12 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
 
-#### LELY Daily Rumination ~ BS.Month - Month Blood Sample was taken
-
-       Call:
-       glm(formula = LELY_DAILY_RUMINATION ~ BS.Month, data = Merged_new_dt_final2)
-
-    Deviance Residuals: 
-        Min       1Q   Median       3Q      Max  
-    -163.67   -32.30     3.00    39.67   103.92  
-
-    Coefficients:
-                    Estimate Std. Error t value Pr(>|t|)    
-    (Intercept)      462.769     16.264  28.453   <2e-16 ***
-    BS.Month07-2018  -14.603     21.344  -0.684   0.4957    
-    BS.Month08-2018  -44.103     23.475  -1.879   0.0636 .  
-    BS.Month09-2018  -62.325     25.429  -2.451   0.0162 *  
-    BS.Month10-2018  -29.769     24.024  -1.239   0.2186    
-    BS.Month11-2018  -22.619     20.892  -1.083   0.2819    
-    BS.Month12-2018   -9.686     23.475  -0.413   0.6809    
-    ---
-    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-    (Dispersion parameter for gaussian family taken to be 3438.854)
-
-     Null deviance: 332618  on 94  degrees of freedom
-    Residual deviance: 302619  on 88  degrees of freedom
-    AIC: 1051.9
-
-    Number of Fisher Scoring iterations: 2
-
-<img src = https://user-images.githubusercontent.com/61294969/82472223-77d90900-9a8d-11ea-8da5-d43e71378acd.png>
-
 ## Multiple Regression final output - Daily Activity
 
 Although not signficant, the variables "n22" and "n23" were forced into the final model to control for repeated variables for a fixed effect from our data. Below is a table showing the number of observations per unique ID of the cattle. You can see that 25 unique ID's had 1 observation, 34 unique ID's had 2 observations, and 36 unique ID's had 3 observations.
 
 1  2  3 
+
 25 34 36 
 
     Call:
