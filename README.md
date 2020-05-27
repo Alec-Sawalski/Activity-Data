@@ -26,6 +26,8 @@ CE.Stom.Noise.Frequency - Frequency of Rumen Rumbles
 
 CE.Stom.Fullness - Measure of how full the stomach is
 
+BS.Month_warm - 
+
 Cow.Breed - Breed of the cow; CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
 
 ## Defining Non-Significant Numeric Predictors
