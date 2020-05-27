@@ -304,6 +304,32 @@ Even though not significant, included to show that even after accounting for mul
 
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
 
+#### LELY Daily Rumination ~ n2
+
+    Call:
+    glm(formula = LELY_DAILY_RUMINATION ~ n2, data = dd1)
+
+    Deviance Residuals: 
+         Min        1Q    Median        3Q       Max  
+    -175.472   -34.056     6.971    45.249   106.971  
+
+    Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)  436.640     11.900  36.691   <2e-16 ***
+    n22           13.389     15.676   0.854    0.395    
+    n23           -6.168     15.491  -0.398    0.691    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for gaussian family taken to be 3540.497)
+
+        Null deviance: 332618  on 94  degrees of freedom
+    Residual deviance: 325726  on 92  degrees of freedom
+    AIC: 1050.9
+
+    Number of Fisher Scoring iterations: 2
+
+
 ## Multiple Regression final output - Daily Activity
 
 When analyzing the data set, we noticed there were certain CowID's which contained multiple CowID observations. Due to this, we added in a count variable "n2" to give us the number of unique observations per ID. Below is a table showing the number of observations per unique ID of the cattle. You can see that 25 unique ID's had 1 observation, 34 unique ID's had 2 observations, and 36 unique ID's had 3 observations.
