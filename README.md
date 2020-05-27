@@ -277,9 +277,11 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 
 ## Multiple Regression final output - Daily Activity
 
-Although not signficant, the variables "n22" and "n23" were forced into the final model to control for repeated variables for a fixed effect from our data. Below is a table showing the number of observations per unique ID of the cattle. You can see that 25 unique ID's had 1 observation, 34 unique ID's had 2 observations, and 36 unique ID's had 3 observations.
+When analyzing the data set, we noticed there were certain CowID's which contained multiple CowID observations. Due to this, we added in a count variable "n2" to give us the number of unique observations per ID. Below is a table showing the number of observations per unique ID of the cattle. You can see that 25 unique ID's had 1 observation, 34 unique ID's had 2 observations, and 36 unique ID's had 3 observations.
 
-      1  2  3 
+    Table for Number of Observations
+    
+     1  2  3 
 
     25 34 36 
 
@@ -320,7 +322,7 @@ Although not signficant, the variables "n22" and "n23" were forced into the fina
     
 <img src = https://user-images.githubusercontent.com/61294969/82910194-f15e7480-9f2f-11ea-87ca-15543c3aceff.png>  
 
-After arriving at our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significantly associated predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significantly associated with the outcome, but relatively similar variables, only MS.Milk.Yield was used in the final model. Ater running the initial model with all significantly associated predictors from the bivariate analysis, backward step elimination was used until only significantly associated predictors remained in the final model. 
+After arriving at our final Multiple Regression model, we see that BS.NEFA.0.7 and MS.Lactose are significantly associated predictors of daily activity level in dairy cows. Since both Milk.Yield and MS.Milk Yield were significantly associated with the outcome, but relatively similar variables, only MS.Milk.Yield was used in the final model. Although not signficant, the variables "n22" and "n23" were forced into the final model to control for repeated variables for a fixed effect from our data. Ater running the initial model with all significantly associated predictors from the bivariate analysis, backward step elimination was used until only significantly associated predictors remained in the final model. 
 
 Looking at daily activity, we see that as NEFA levels increase, levels in daily activity decrease by 0.17330 units. In addition, as lactose levels increase, levels in daily activity increase by 0.23308 units.
 
@@ -366,4 +368,4 @@ Looking at daily activity, we see that as NEFA levels increase, levels in daily 
 
 <img src = https://user-images.githubusercontent.com/61294969/82909029-5add8380-9f2e-11ea-91fc-25d2de54155e.png>
 
-After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significant predictors of LELY Daily Rumination levels in dairy cows. We see that for increases in Hapto levels, there is a decrease in LELY daily rumination by 32.9575. Also, when there is an incrase in MS.Urea, we see an increase in LELY daily rumination by 1.9956.
+After arriving to our final Multiple Regression model, we see that Hapto0.35 and MS.Urea are significantly associated predictors of LELY Daily Rumination levels in dairy cows. We see that for increases in Hapto levels, there is a decrease in LELY daily rumination by 32.9575 units. Also, when there is an increase in MS.Urea, we see an increase in LELY daily rumination by 1.9956 units.
