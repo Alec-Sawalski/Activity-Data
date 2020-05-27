@@ -279,9 +279,9 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 
 Although not signficant, the variables "n22" and "n23" were forced into the final model to control for repeated variables for a fixed effect from our data. Below is a table showing the number of observations per unique ID of the cattle. You can see that 25 unique ID's had 1 observation, 34 unique ID's had 2 observations, and 36 unique ID's had 3 observations.
 
- 1  2  3 
+      1  2  3 
 
-25 34 36 
+    25 34 36 
 
     Call:
     glm(formula = log_daily_activity ~ BS.NEFA.0.7 + MS.Lactose + 
