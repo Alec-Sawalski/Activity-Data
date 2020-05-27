@@ -4,7 +4,7 @@ We used activity data variables "daily_activity" and "LELY_daily_rumination" as 
 
 ## Defining Non-Significant Factor Predictors
 
-BS.BHBA.1.2 - States whether the cow had a high or low blood BHBA level
+BS.BHBA.1.2 - States whether the cow had a high (>= 1.2) or low blood (< 1.2) BHBA level
 
 CE.Lame - Is the cow lame
 
@@ -12,7 +12,7 @@ Hfr.or.Cow - Type of cow, is it a heifer or a cow
 
 CE.Locomotion Score - Locomotion Score, 1 & 2 = okay, 3, 4, & 5 = lame
 
-FPR.1.4 - States wheter the cow had high or low Fat/Protein ratio
+FPR.1.4 - States wheter the cow had high (> or = to 1.4) or low (< 1.4) Fat/Protein ratio
 
 CE.Stom.Tension - Measurement of abdominal tension aka stomach aches
 
@@ -22,13 +22,13 @@ CE.Stom.Ping - Ping of the stomach
 
 CE.Waste.Digestion - How well food has been digested by the cow
 
-CE.Stom.Noise.Frequency - Frequency of Rumen Rumbles
+CE.Stom.Noise.Frequency - Frequency of Rumen Rumbles, "phy" = normal (3 per minute), "bis_2" = under-active (less than 3 per minute), "groe_3" = over-active (more than 3 per minute)
 
 CE.Stom.Fullness - Measure of how full the stomach is
 
 BS.Month_warm - Month the blood sample was taken and whether it was warm or cool months
 
-Cow.Breed - Breed of the cow; CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
+Cow.Breed - Breed of the cow ( represented by numbers, 1 = Simmental & 2 = Braunvieh); CE.Skin.Dehydration - Elasticity of the skin of the cow to measure the dehydration: Received error message and could not be complete in R
 
 ## Defining Non-Significant Numeric Predictors
 
@@ -64,7 +64,7 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 
 ## Daily Activity Significant Predictors
 
-#### Daily_Activity ~ BS.NEFA.0.7 - NEFA levels above or below 0.7 (above 0.7=high)
+#### Daily_Activity ~ BS.NEFA.0.7 - NEFA levels above or below 0.7 (above or equal to 0.7=high)
 
     Call:
     glm(formula = log_daily_activity ~ BS.NEFA.0.7, data = Merged_new_dt_final2)
