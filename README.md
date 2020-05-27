@@ -169,6 +169,33 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 
 <img src=https://user-images.githubusercontent.com/61294969/82225471-ddd95b00-98ea-11ea-8aec-799be9337fd0.png>
 
+#### Daily Activity ~ n2 - ID observations by individual cows - accounts for multiple observations for a single cow
+
+Even though not significant, included to show that even after accounting for multiple observations per CowID, there is still no significant associations with daily activity 
+
+    Call:
+    glm(formula = log_daily_activity ~ n2, data = dd1)
+
+    Deviance Residuals: 
+        Min        1Q    Median        3Q       Max  
+    -0.64297  -0.18750  -0.05612   0.15118   1.10703  
+
+    Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)  3.86278    0.06106  63.259   <2e-16 ***
+    n22         -0.12877    0.08044  -1.601    0.113    
+    n23         -0.07607    0.07949  -0.957    0.341    
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    (Dispersion parameter for gaussian family taken to be 0.093216)
+
+        Null deviance: 8.8148  on 94  degrees of freedom
+    Residual deviance: 8.5759  on 92  degrees of freedom
+    AIC: 49.131
+
+    Number of Fisher Scoring iterations: 2
+        
 ## LELY Daily Rumination Significant Predictors
 
 #### LELY Daily Rumination ~ Hapto.0.35 - Hapto levels above or below 0.35 (0=Below 0.35, 1=Above 0.35)
