@@ -333,6 +333,7 @@ Even though not significant, included to show that even after accounting for mul
 
     Number of Fisher Scoring iterations: 2
 
+<img src=https://user-images.githubusercontent.com/61294969/83054638-5ab9b280-a018-11ea-8b0c-28e67f8ebe58.png>
 
 ## Multiple Regression final output - Daily Activity
 
