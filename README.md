@@ -195,7 +195,9 @@ Even though not significant, included to show that even after accounting for mul
     AIC: 49.131
 
     Number of Fisher Scoring iterations: 2
-        
+
+<img src = https://user-images.githubusercontent.com/61294969/83054473-0f9f9f80-a018-11ea-813a-5c3eaff9f6a2.png>
+
 ## LELY Daily Rumination Significant Predictors
 
 #### LELY Daily Rumination ~ Hapto.0.35 - Hapto levels above or below 0.35 (0=Below 0.35, 1=Above 0.35)
@@ -305,6 +307,8 @@ Even though not significant, included to show that even after accounting for mul
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
 
 #### LELY Daily Rumination ~ n2
+
+Even though not significant, included to show that even after accounting for multiple observations per CowID, there is still no significant associations with daily activity 
 
     Call:
     glm(formula = LELY_DAILY_RUMINATION ~ n2, data = dd1)
