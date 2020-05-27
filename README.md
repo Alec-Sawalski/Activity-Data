@@ -169,7 +169,7 @@ Using LELY Daily Rumination as the predictor, we ran a bivariate analysis of LEL
 
 <img src=https://user-images.githubusercontent.com/61294969/82225471-ddd95b00-98ea-11ea-8aec-799be9337fd0.png>
 
-#### Daily Activity ~ n2 - ID observations by individual cows - accounts for multiple observations for a single cow
+#### Daily Activity ~ n2 - ID observations by individual cows - accounts for multiple observations for a single cow - Not Significantly Associated
 
 Even though not significant, included to show that even after accounting for multiple observations per CowID, there is still no significant associations with daily activity 
 
@@ -306,7 +306,7 @@ Even though not significant, included to show that even after accounting for mul
 
 <img src=https://user-images.githubusercontent.com/61294969/82224062-08c2af80-98e9-11ea-86cb-6241fd3fa253.png>
 
-#### LELY Daily Rumination ~ n2
+#### LELY Daily Rumination ~ n2 - Not Significantly Associated
 
 Even though not significant, included to show that even after accounting for multiple observations per CowID, there is still no significant associations with daily activity 
 
